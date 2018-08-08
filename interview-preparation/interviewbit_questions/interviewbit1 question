@@ -1,0 +1,35 @@
+You are given an Integer N.
+
+You have to find how many different strings of length N can be made using Vowels (a, e, i, o, u) only and by following given rules :
+
+‘a’ can only be followed by ‘e’ and ‘i’.
+
+‘e’ can only be followed by ‘i’.
+
+‘i’ can only be followed by ‘a’, ‘e’, ‘o’, and ‘u’.
+
+‘o’ can only be followed by ‘a’ and ‘u’.
+
+‘u’ can only be followed by ‘o’ and ‘e’.
+
+for example N = 2
+
+strings starting with 'a' of length 2 are:
+    1. "ae"
+    2. "ai"
+strings starting with 'e' of length 2 are:
+    1. "ei"
+strings starting with 'i' of length 2 are:
+    1. "ia"
+    2. "io"
+    3. "iu"
+    4. "ie"
+strings starting with 'o' of length 2 are:
+    1. "oa"
+    2. "ou"
+strings starting with 'u' of length 2 are:
+    1. "uo"
+    2. "ue"
+
+so total number of strings can be made using vowels and following above rules will be 11.
+
