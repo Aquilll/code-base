@@ -1,4 +1,4 @@
-//Also known as Memoization Technique for Dynamica programming
+//Also known as Memoization Technique for Dynamic programming
 public class TopDownFibonacci {
     int MAX = 100;
     int NIL = -1;
